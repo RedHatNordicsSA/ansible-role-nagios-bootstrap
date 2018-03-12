@@ -1,0 +1,4 @@
+---
+# tasks file for ansible-role-nagios-bootstrap
+- name: Add host to Nagios
+  command: add_host.sh $servername
