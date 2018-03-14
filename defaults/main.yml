@@ -1,3 +1,5 @@
 ---
 # defaults file for ansible-role-nagios-bootstrap
-nagios-bootstrap_version: "0.1.0"
+
+# Server to setup monitoring for
+monitored_server:
