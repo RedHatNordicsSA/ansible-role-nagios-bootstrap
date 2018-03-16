@@ -1,5 +1,8 @@
 ---
 # defaults file for ansible-role-nagios-bootstrap
 
-# Server to setup monitoring for
+# Server to configure monitoring for
 monitored_server:
+
+# Add or remove monitoring
+nagios_bootstrap_state:
