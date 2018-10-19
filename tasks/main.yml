@@ -1,11 +1,9 @@
 ---
 # tasks file for ansible-role-nagios-bootstrap
  - name: Add host to Nagios
-   hosts: nagios.labrats.se
    command: add_host.sh {{ monitored_server }}
    when: nagios_bootstrap_state == "present"
    
  - name: Remove host from Nagios
-   hosts: nagios.labrats.se
    command: remove_host.sh {{ monitored_server }}
    when: nagios_bootstrap_state == "absent"
