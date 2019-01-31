@@ -1,12 +1,13 @@
-Role Name
-=========
+ansible-role-nagios-bootstrap
+=============================
 
-This role adds a server to be monitored by Nagios
+This role adds a server to be monitored by [Nagios](https://www.nagios.org/)
 
 Requirements
 ------------
 
-The monitored client need to have prereqs in place, these are handled by the ansible-role-nagios-nrpe role.
+The monitored client need to have prereqs in place, these are handled by the
+ansible-role-nagios-nrpe role.
 
 Role Variables
 --------------
@@ -21,7 +22,6 @@ A list of other roles hosted on Galaxy should go here, plus any details in regar
 Example Playbook
 ----------------
 
-Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
 
     - hosts: nagios.redhat.labrats.se
       roles:
